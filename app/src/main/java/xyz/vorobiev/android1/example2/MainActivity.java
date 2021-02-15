@@ -26,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 arg1 = Integer.valueOf(input1.getText().toString());
                 arg2 = Integer.valueOf(input2.getText().toString());
 
-
-                android.util.Log.e("MY_LOGS", String.valueOf(arg1 / arg2));
                 result.setText(String.valueOf(arg1 / arg2));
             } catch (NumberFormatException e) {
                 result.setText("Please enter a number");
